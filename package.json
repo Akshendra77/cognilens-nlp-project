@@ -1,0 +1,11 @@
+{
+  "name": "cognilens-nlp-project",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python app.py",
+    "train": "python ml/train.py",
+    "test": "python -m unittest discover -s tests -v && node tests/inference.test.mjs"
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
+.env
+.pytest_cache/
+node_modules/
+.sites-local/
+
+# Hosting metadata and local secrets
+.openai/
+.env.*
+!.env.example

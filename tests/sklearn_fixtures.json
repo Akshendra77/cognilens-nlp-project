@@ -1,0 +1,818 @@
+[
+  {
+    "text": "A single flaw in the workshop means the whole thing is worthless.",
+    "scores": {
+      "all_or_nothing": 0.10093044574278269,
+      "catastrophizing": 0.08307950953084554,
+      "discounting_positive": 0.06399639707841759,
+      "emotional_reasoning": 0.06969126284443476,
+      "labeling": 0.06893265052921214,
+      "mental_filter": 0.2969717584817914,
+      "mind_reading": 0.04040389096633209,
+      "no_clear_pattern": 0.042256326339329235,
+      "overgeneralization": 0.1062241580813482,
+      "personalization": 0.06740491872838722,
+      "should_statements": 0.06010868167711903
+    }
+  },
+  {
+    "text": "I see the workshop in black and white; it is either excellent or terrible.",
+    "scores": {
+      "all_or_nothing": 0.6067745555897646,
+      "catastrophizing": 0.04100293220609803,
+      "discounting_positive": 0.04126594872243834,
+      "emotional_reasoning": 0.04266303315797866,
+      "labeling": 0.018082020329739986,
+      "mental_filter": 0.05628866298676485,
+      "mind_reading": 0.016204896947271244,
+      "no_clear_pattern": 0.060888788768171255,
+      "overgeneralization": 0.019555205447549087,
+      "personalization": 0.07248897262510813,
+      "should_statements": 0.024784983219115805
+    }
+  },
+  {
+    "text": "Getting most of the workshop right is just as bad as getting nothing right.",
+    "scores": {
+      "all_or_nothing": 0.20232696816012352,
+      "catastrophizing": 0.06894491752685049,
+      "discounting_positive": 0.14072643481542224,
+      "emotional_reasoning": 0.07550261741062796,
+      "labeling": 0.10583248302952292,
+      "mental_filter": 0.10461435251482744,
+      "mind_reading": 0.04698529267179595,
+      "no_clear_pattern": 0.03246179422166071,
+      "overgeneralization": 0.11279847411404023,
+      "personalization": 0.07379097341456482,
+      "should_statements": 0.03601569212056379
+    }
+  },
+  {
+    "text": "If the workshop is not a hundred percent successful, it is zero percent successful.",
+    "scores": {
+      "all_or_nothing": 0.5702271888540476,
+      "catastrophizing": 0.06725943799526149,
+      "discounting_positive": 0.059395062772558106,
+      "emotional_reasoning": 0.035642990447940406,
+      "labeling": 0.020455141771498438,
+      "mental_filter": 0.03347889582781879,
+      "mind_reading": 0.021197251818773837,
+      "no_clear_pattern": 0.03981274766754813,
+      "overgeneralization": 0.024861318308658224,
+      "personalization": 0.09171941257352591,
+      "should_statements": 0.03595055196236909
+    }
+  },
+  {
+    "text": "One disappointing result in the workshop means I will never succeed again.",
+    "scores": {
+      "all_or_nothing": 0.02754896654803655,
+      "catastrophizing": 0.34935498189882325,
+      "discounting_positive": 0.05808789707528471,
+      "emotional_reasoning": 0.023829511851944228,
+      "labeling": 0.031166990170224396,
+      "mental_filter": 0.04344603917898145,
+      "mind_reading": 0.023751181181537274,
+      "no_clear_pattern": 0.04464457702795505,
+      "overgeneralization": 0.3382144903797533,
+      "personalization": 0.02622641350343598,
+      "should_statements": 0.0337289511840238
+    }
+  },
+  {
+    "text": "A mistake in the workshop shows that every attempt I make is doomed.",
+    "scores": {
+      "all_or_nothing": 0.12297817383142422,
+      "catastrophizing": 0.10991731193714337,
+      "discounting_positive": 0.05243556599943743,
+      "emotional_reasoning": 0.057200179288239145,
+      "labeling": 0.18216441060827118,
+      "mental_filter": 0.102322140268787,
+      "mind_reading": 0.03151483940557169,
+      "no_clear_pattern": 0.06701142933926933,
+      "overgeneralization": 0.11367436580429117,
+      "personalization": 0.07950745215914283,
+      "should_statements": 0.0812741313584227
+    }
+  },
+  {
+    "text": "Since one person disliked the workshop, nobody will ever like my work.",
+    "scores": {
+      "all_or_nothing": 0.021902785619358166,
+      "catastrophizing": 0.0485980094191032,
+      "discounting_positive": 0.01859235606225624,
+      "emotional_reasoning": 0.03917589126944837,
+      "labeling": 0.03535414492887229,
+      "mental_filter": 0.028583856189928463,
+      "mind_reading": 0.01854123187172423,
+      "no_clear_pattern": 0.02688887282843833,
+      "overgeneralization": 0.7227793884361243,
+      "personalization": 0.020607461383694143,
+      "should_statements": 0.018976001991052385
+    }
+  },
+  {
+    "text": "This single setback in the workshop proves that things always go badly for me.",
+    "scores": {
+      "all_or_nothing": 0.021079178719490322,
+      "catastrophizing": 0.12549623878443322,
+      "discounting_positive": 0.02388072811411852,
+      "emotional_reasoning": 0.05175474928239672,
+      "labeling": 0.036132346648398,
+      "mental_filter": 0.026812569365923626,
+      "mind_reading": 0.028851776010072962,
+      "no_clear_pattern": 0.05089074472142496,
+      "overgeneralization": 0.5309673916184631,
+      "personalization": 0.04954805189799508,
+      "should_statements": 0.054586224837283565
+    }
+  },
+  {
+    "text": "All the praise for the workshop fades away; the single negative remark fills my mind.",
+    "scores": {
+      "all_or_nothing": 0.061886321517929284,
+      "catastrophizing": 0.05037593425256088,
+      "discounting_positive": 0.1607413289719826,
+      "emotional_reasoning": 0.039985356932562686,
+      "labeling": 0.03378623405734428,
+      "mental_filter": 0.15619885173886816,
+      "mind_reading": 0.04861637975199519,
+      "no_clear_pattern": 0.06568769698796098,
+      "overgeneralization": 0.0793012606080382,
+      "personalization": 0.16723308748830698,
+      "should_statements": 0.13618754769245078
+    }
+  },
+  {
+    "text": "I selectively remember the error in the workshop despite everything else going well.",
+    "scores": {
+      "all_or_nothing": 0.04141937797412718,
+      "catastrophizing": 0.16860571376972242,
+      "discounting_positive": 0.04408585484388268,
+      "emotional_reasoning": 0.024910280682674906,
+      "labeling": 0.14782566174217948,
+      "mental_filter": 0.2908556066396873,
+      "mind_reading": 0.02478668030457955,
+      "no_clear_pattern": 0.05358217115205385,
+      "overgeneralization": 0.07270825313258142,
+      "personalization": 0.08334339051094694,
+      "should_statements": 0.04787700924756432
+    }
+  },
+  {
+    "text": "I keep zooming in on the one bad detail of the workshop and miss the bigger picture.",
+    "scores": {
+      "all_or_nothing": 0.021706844377120907,
+      "catastrophizing": 0.03812530187770557,
+      "discounting_positive": 0.01598187523526255,
+      "emotional_reasoning": 0.013632825035780345,
+      "labeling": 0.014199436336580534,
+      "mental_filter": 0.7966015261154774,
+      "mind_reading": 0.010674767270061492,
+      "no_clear_pattern": 0.03665971463991836,
+      "overgeneralization": 0.026080522936002503,
+      "personalization": 0.015773874355852962,
+      "should_statements": 0.010563311820237597
+    }
+  },
+  {
+    "text": "The good outcomes of the workshop are invisible to me because I am stuck on a fault.",
+    "scores": {
+      "all_or_nothing": 0.08662336735666787,
+      "catastrophizing": 0.0427720138439531,
+      "discounting_positive": 0.09244898563138908,
+      "emotional_reasoning": 0.05140242943327685,
+      "labeling": 0.09316046928393955,
+      "mental_filter": 0.2608971957713086,
+      "mind_reading": 0.17436904804591885,
+      "no_clear_pattern": 0.03625712068191079,
+      "overgeneralization": 0.05844419782511738,
+      "personalization": 0.06484441090053099,
+      "should_statements": 0.03878076122598684
+    }
+  },
+  {
+    "text": "The excellent outcome of the workshop was pure chance and says nothing about my skills.",
+    "scores": {
+      "all_or_nothing": 0.04831904358049832,
+      "catastrophizing": 0.19910293002664053,
+      "discounting_positive": 0.10177499428198827,
+      "emotional_reasoning": 0.13484945129054635,
+      "labeling": 0.03582419491408711,
+      "mental_filter": 0.1376454630123639,
+      "mind_reading": 0.08536002052196302,
+      "no_clear_pattern": 0.1099242726435324,
+      "overgeneralization": 0.033941745211930816,
+      "personalization": 0.06595690885969308,
+      "should_statements": 0.04730097565675607
+    }
+  },
+  {
+    "text": "Their kind words about the workshop cannot be sincere; they only feel sorry for me.",
+    "scores": {
+      "all_or_nothing": 0.03748059270532867,
+      "catastrophizing": 0.0546512490759069,
+      "discounting_positive": 0.04371259412941364,
+      "emotional_reasoning": 0.3095385883830277,
+      "labeling": 0.017943519751145245,
+      "mental_filter": 0.060703582143912006,
+      "mind_reading": 0.21864424897412885,
+      "no_clear_pattern": 0.04332272043683924,
+      "overgeneralization": 0.04323845602014826,
+      "personalization": 0.1028414394536017,
+      "should_statements": 0.06792300892654783
+    }
+  },
+  {
+    "text": "I earned praise for the workshop, but I brush it off as meaningless politeness.",
+    "scores": {
+      "all_or_nothing": 0.06426457358495037,
+      "catastrophizing": 0.036974987246899266,
+      "discounting_positive": 0.3906532953516536,
+      "emotional_reasoning": 0.03626983526500484,
+      "labeling": 0.051606309392402384,
+      "mental_filter": 0.05791317327313215,
+      "mind_reading": 0.024641314530127162,
+      "no_clear_pattern": 0.14950083403047368,
+      "overgeneralization": 0.03977634615584305,
+      "personalization": 0.09430904772762642,
+      "should_statements": 0.05409028344188688
+    }
+  },
+  {
+    "text": "The award for the workshop means nothing because the task was too easy.",
+    "scores": {
+      "all_or_nothing": 0.03931189200533607,
+      "catastrophizing": 0.03668371396246477,
+      "discounting_positive": 0.5198640132522154,
+      "emotional_reasoning": 0.04958238547005593,
+      "labeling": 0.03738545832291708,
+      "mental_filter": 0.029171200500001847,
+      "mind_reading": 0.05037204520022069,
+      "no_clear_pattern": 0.04806318246407863,
+      "overgeneralization": 0.08555626046773586,
+      "personalization": 0.061912621157138026,
+      "should_statements": 0.04209722719783556
+    }
+  },
+  {
+    "text": "They have not told me, but I am sure they consider the workshop embarrassing.",
+    "scores": {
+      "all_or_nothing": 0.03424461210340367,
+      "catastrophizing": 0.04986165771292008,
+      "discounting_positive": 0.10904197805728282,
+      "emotional_reasoning": 0.04068030303325127,
+      "labeling": 0.0944436358337168,
+      "mental_filter": 0.025505150505880727,
+      "mind_reading": 0.4686174408447245,
+      "no_clear_pattern": 0.06806295320521194,
+      "overgeneralization": 0.029968397850559256,
+      "personalization": 0.03668246100354883,
+      "should_statements": 0.04289140984950004
+    }
+  },
+  {
+    "text": "The unread message about the workshop must mean they are angry with me.",
+    "scores": {
+      "all_or_nothing": 0.01633067567631623,
+      "catastrophizing": 0.02047759354055158,
+      "discounting_positive": 0.0389481886859171,
+      "emotional_reasoning": 0.053720802087508235,
+      "labeling": 0.03408791774840838,
+      "mental_filter": 0.024512947723865156,
+      "mind_reading": 0.5999859329216952,
+      "no_clear_pattern": 0.04388959791038493,
+      "overgeneralization": 0.03023917927509553,
+      "personalization": 0.05291184494231231,
+      "should_statements": 0.08489531948794553
+    }
+  },
+  {
+    "text": "Their facial expression tells me they think I am a failure at the workshop.",
+    "scores": {
+      "all_or_nothing": 0.040641382686981066,
+      "catastrophizing": 0.011987693992534416,
+      "discounting_positive": 0.018763464097693104,
+      "emotional_reasoning": 0.024272050938361222,
+      "labeling": 0.07463705002791843,
+      "mental_filter": 0.013405116313228507,
+      "mind_reading": 0.7245838971195336,
+      "no_clear_pattern": 0.017449149470298617,
+      "overgeneralization": 0.0285847566829673,
+      "personalization": 0.025681027334247004,
+      "should_statements": 0.019994411336236702
+    }
+  },
+  {
+    "text": "I assume they despise me because they were quiet after the workshop.",
+    "scores": {
+      "all_or_nothing": 0.020277907937205467,
+      "catastrophizing": 0.022718040997505663,
+      "discounting_positive": 0.14563771940263331,
+      "emotional_reasoning": 0.036302030192150885,
+      "labeling": 0.044337669583021634,
+      "mental_filter": 0.02720500121217159,
+      "mind_reading": 0.40767263353280814,
+      "no_clear_pattern": 0.020859366739332395,
+      "overgeneralization": 0.037534414308787595,
+      "personalization": 0.21430585095602134,
+      "should_statements": 0.02314936513836209
+    }
+  },
+  {
+    "text": "A poor outcome in the workshop will wreck every chance I have in life.",
+    "scores": {
+      "all_or_nothing": 0.04466673628166536,
+      "catastrophizing": 0.5963726295028228,
+      "discounting_positive": 0.039082551567243065,
+      "emotional_reasoning": 0.016506754748013525,
+      "labeling": 0.040131257842822975,
+      "mental_filter": 0.03472409879095162,
+      "mind_reading": 0.01746462890661554,
+      "no_clear_pattern": 0.03382327769299003,
+      "overgeneralization": 0.10779449636909684,
+      "personalization": 0.032488883984805685,
+      "should_statements": 0.03694468431297254
+    }
+  },
+  {
+    "text": "If something goes wrong with the workshop, everything will collapse beyond repair.",
+    "scores": {
+      "all_or_nothing": 0.029335045532719577,
+      "catastrophizing": 0.5758574575859696,
+      "discounting_positive": 0.015280117350345578,
+      "emotional_reasoning": 0.023815313706534103,
+      "labeling": 0.03525924502090176,
+      "mental_filter": 0.02316563315235094,
+      "mind_reading": 0.014368596542511082,
+      "no_clear_pattern": 0.038615621196009385,
+      "overgeneralization": 0.1354275898878027,
+      "personalization": 0.0827307313567715,
+      "should_statements": 0.026144648668083588
+    }
+  },
+  {
+    "text": "The slightest problem in the workshop will cause a devastating chain of disasters.",
+    "scores": {
+      "all_or_nothing": 0.03489612526076051,
+      "catastrophizing": 0.6225757210082504,
+      "discounting_positive": 0.031167061884439837,
+      "emotional_reasoning": 0.021659005964730978,
+      "labeling": 0.040987948185360015,
+      "mental_filter": 0.06922257341593989,
+      "mind_reading": 0.019965164846216143,
+      "no_clear_pattern": 0.031754697985480515,
+      "overgeneralization": 0.06845206996784274,
+      "personalization": 0.03829781969306906,
+      "should_statements": 0.021021811787909923
+    }
+  },
+  {
+    "text": "I expect the workshop to end terribly and leave my future permanently destroyed.",
+    "scores": {
+      "all_or_nothing": 0.044038669848403496,
+      "catastrophizing": 0.15509935906315026,
+      "discounting_positive": 0.04205924938125739,
+      "emotional_reasoning": 0.04039011013054646,
+      "labeling": 0.026977785608071132,
+      "mental_filter": 0.05107513764366145,
+      "mind_reading": 0.028580059567037946,
+      "no_clear_pattern": 0.3984259434542268,
+      "overgeneralization": 0.04627388053712116,
+      "personalization": 0.04161620374970437,
+      "should_statements": 0.12546360101681955
+    }
+  },
+  {
+    "text": "The dread I feel about the workshop is evidence that it is unsafe.",
+    "scores": {
+      "all_or_nothing": 0.08854965228043865,
+      "catastrophizing": 0.023557712819484995,
+      "discounting_positive": 0.02206800335670622,
+      "emotional_reasoning": 0.5770370434079561,
+      "labeling": 0.009077398583475864,
+      "mental_filter": 0.04857518618561306,
+      "mind_reading": 0.026878805516961552,
+      "no_clear_pattern": 0.03586747554406231,
+      "overgeneralization": 0.00932811324475831,
+      "personalization": 0.136226277821817,
+      "should_statements": 0.022834331238725792
+    }
+  },
+  {
+    "text": "Since the workshop makes me feel inadequate, I conclude that I am inadequate.",
+    "scores": {
+      "all_or_nothing": 0.0585473756954828,
+      "catastrophizing": 0.04115196064222018,
+      "discounting_positive": 0.03255583096513898,
+      "emotional_reasoning": 0.3282900106260988,
+      "labeling": 0.1910566257442244,
+      "mental_filter": 0.04039355262438419,
+      "mind_reading": 0.0714889720118498,
+      "no_clear_pattern": 0.04608806240444283,
+      "overgeneralization": 0.09305038405920958,
+      "personalization": 0.047647364977165,
+      "should_statements": 0.04972986024978352
+    }
+  },
+  {
+    "text": "I take my sadness after the workshop as proof that everything really is hopeless.",
+    "scores": {
+      "all_or_nothing": 0.05201435670677655,
+      "catastrophizing": 0.057924398665009987,
+      "discounting_positive": 0.04342790320220608,
+      "emotional_reasoning": 0.4195637974738426,
+      "labeling": 0.06156165546340251,
+      "mental_filter": 0.052257737280490574,
+      "mind_reading": 0.04546524440046129,
+      "no_clear_pattern": 0.030653542116432436,
+      "overgeneralization": 0.05987158269378964,
+      "personalization": 0.1466151553564646,
+      "should_statements": 0.03064462664112381
+    }
+  },
+  {
+    "text": "I feel rejected after the workshop, therefore I know I have been rejected.",
+    "scores": {
+      "all_or_nothing": 0.029043409497916617,
+      "catastrophizing": 0.023505395250958114,
+      "discounting_positive": 0.02751360441691532,
+      "emotional_reasoning": 0.5577021850220591,
+      "labeling": 0.02497266365782866,
+      "mental_filter": 0.0236748338248803,
+      "mind_reading": 0.11021248263172653,
+      "no_clear_pattern": 0.03864890706174687,
+      "overgeneralization": 0.062111352915192826,
+      "personalization": 0.05516789021239012,
+      "should_statements": 0.04744727550838539
+    }
+  },
+  {
+    "text": "I should never find the workshop difficult; struggling is unacceptable.",
+    "scores": {
+      "all_or_nothing": 0.024008136504377622,
+      "catastrophizing": 0.019011271958333964,
+      "discounting_positive": 0.014219381136583208,
+      "emotional_reasoning": 0.01676791957103931,
+      "labeling": 0.011072072242222088,
+      "mental_filter": 0.017925757341235134,
+      "mind_reading": 0.012005860840234982,
+      "no_clear_pattern": 0.02498316022063703,
+      "overgeneralization": 0.03759132936195061,
+      "personalization": 0.019814833722898374,
+      "should_statements": 0.8026002771004876
+    }
+  },
+  {
+    "text": "I must excel at the workshop at all times or I have broken my own rules.",
+    "scores": {
+      "all_or_nothing": 0.37803745081765733,
+      "catastrophizing": 0.026063506355011107,
+      "discounting_positive": 0.04546458672453117,
+      "emotional_reasoning": 0.06899130738867904,
+      "labeling": 0.055737078242760335,
+      "mental_filter": 0.03160165398017099,
+      "mind_reading": 0.059232432990185095,
+      "no_clear_pattern": 0.033302843719052885,
+      "overgeneralization": 0.08754699258214318,
+      "personalization": 0.05338265719354624,
+      "should_statements": 0.16063949000626263
+    }
+  },
+  {
+    "text": "There is no excuse: I ought to complete the workshop without a single error.",
+    "scores": {
+      "all_or_nothing": 0.3288181714399267,
+      "catastrophizing": 0.035405755193545475,
+      "discounting_positive": 0.03312104176262676,
+      "emotional_reasoning": 0.06712576134956735,
+      "labeling": 0.037905730284199024,
+      "mental_filter": 0.0458814763756154,
+      "mind_reading": 0.02816978480218121,
+      "no_clear_pattern": 0.02765572172458809,
+      "overgeneralization": 0.03054272605922695,
+      "personalization": 0.03495745032942885,
+      "should_statements": 0.3304163806790942
+    }
+  },
+  {
+    "text": "People should behave exactly as I demand during the workshop.",
+    "scores": {
+      "all_or_nothing": 0.026036247551697964,
+      "catastrophizing": 0.02562501341010338,
+      "discounting_positive": 0.04399106959889773,
+      "emotional_reasoning": 0.03664544961822709,
+      "labeling": 0.028370921145187102,
+      "mental_filter": 0.027928815462830773,
+      "mind_reading": 0.028231639697345847,
+      "no_clear_pattern": 0.035458051175750724,
+      "overgeneralization": 0.04462836830668472,
+      "personalization": 0.05998696685773318,
+      "should_statements": 0.6430974571755415
+    }
+  },
+  {
+    "text": "The setback in the workshop defines my entire identity as a loser.",
+    "scores": {
+      "all_or_nothing": 0.03235359135340164,
+      "catastrophizing": 0.36000883636544534,
+      "discounting_positive": 0.05337383571788863,
+      "emotional_reasoning": 0.028831371700401894,
+      "labeling": 0.24189860247565848,
+      "mental_filter": 0.04729774708095602,
+      "mind_reading": 0.02456609443533234,
+      "no_clear_pattern": 0.07175995957235547,
+      "overgeneralization": 0.05719759872732207,
+      "personalization": 0.04695022426952786,
+      "should_statements": 0.035762138301710336
+    }
+  },
+  {
+    "text": "After doing poorly at the workshop, I call myself a worthless idiot.",
+    "scores": {
+      "all_or_nothing": 0.09491411242318876,
+      "catastrophizing": 0.035242276740155315,
+      "discounting_positive": 0.055193421326996304,
+      "emotional_reasoning": 0.08727476949375551,
+      "labeling": 0.2785146633774476,
+      "mental_filter": 0.04326924690402512,
+      "mind_reading": 0.08916868058356434,
+      "no_clear_pattern": 0.04995730217380139,
+      "overgeneralization": 0.10843803300912906,
+      "personalization": 0.0959307510473841,
+      "should_statements": 0.06209674292055254
+    }
+  },
+  {
+    "text": "An error in the workshop means I am fundamentally a useless person.",
+    "scores": {
+      "all_or_nothing": 0.013248161631723763,
+      "catastrophizing": 0.033487502125341496,
+      "discounting_positive": 0.014646364124154987,
+      "emotional_reasoning": 0.01333934617977478,
+      "labeling": 0.8476690775469702,
+      "mental_filter": 0.014993094022256393,
+      "mind_reading": 0.0172247155262106,
+      "no_clear_pattern": 0.01092727029568303,
+      "overgeneralization": 0.012667464321434748,
+      "personalization": 0.01136445075058146,
+      "should_statements": 0.010432553475868541
+    }
+  },
+  {
+    "text": "I attach the label failure to myself because of the workshop.",
+    "scores": {
+      "all_or_nothing": 0.20258973465042276,
+      "catastrophizing": 0.06620821790015291,
+      "discounting_positive": 0.05914754531379535,
+      "emotional_reasoning": 0.10491597555018274,
+      "labeling": 0.11814819933791781,
+      "mental_filter": 0.13980765606419002,
+      "mind_reading": 0.10378856285718305,
+      "no_clear_pattern": 0.04037507692456428,
+      "overgeneralization": 0.03044513435526581,
+      "personalization": 0.08697721439320244,
+      "should_statements": 0.04759668265312307
+    }
+  },
+  {
+    "text": "I hold myself solely accountable for the external problems affecting the workshop.",
+    "scores": {
+      "all_or_nothing": 0.06651921875418465,
+      "catastrophizing": 0.051350905242697524,
+      "discounting_positive": 0.07100809156980842,
+      "emotional_reasoning": 0.038176665594686236,
+      "labeling": 0.03422543682794674,
+      "mental_filter": 0.047653643451583946,
+      "mind_reading": 0.033224747658992644,
+      "no_clear_pattern": 0.09367269814031456,
+      "overgeneralization": 0.05378357456628708,
+      "personalization": 0.42171832945825805,
+      "should_statements": 0.08866668873524015
+    }
+  },
+  {
+    "text": "Someone was unhappy at the workshop, so I assume I personally caused it.",
+    "scores": {
+      "all_or_nothing": 0.05663582506926346,
+      "catastrophizing": 0.025558374136924706,
+      "discounting_positive": 0.1741270227082854,
+      "emotional_reasoning": 0.06942438995791947,
+      "labeling": 0.06879462909582455,
+      "mental_filter": 0.028382999372703856,
+      "mind_reading": 0.04275437604281301,
+      "no_clear_pattern": 0.052181889721450984,
+      "overgeneralization": 0.09750389593190929,
+      "personalization": 0.34471825146170665,
+      "should_statements": 0.03991834650119866
+    }
+  },
+  {
+    "text": "Even factors beyond my influence in the workshop feel like my fault.",
+    "scores": {
+      "all_or_nothing": 0.028311661299919143,
+      "catastrophizing": 0.06452691971349579,
+      "discounting_positive": 0.04788296415008653,
+      "emotional_reasoning": 0.2855610447250476,
+      "labeling": 0.04635903002410255,
+      "mental_filter": 0.05147035230010664,
+      "mind_reading": 0.03181475487132088,
+      "no_clear_pattern": 0.044213105675532396,
+      "overgeneralization": 0.03473936053939887,
+      "personalization": 0.33024507680318427,
+      "should_statements": 0.03487572989780533
+    }
+  },
+  {
+    "text": "I take personal blame for the group outcome of the workshop without evidence.",
+    "scores": {
+      "all_or_nothing": 0.06574800199885365,
+      "catastrophizing": 0.12255421449032329,
+      "discounting_positive": 0.04627086087468454,
+      "emotional_reasoning": 0.04765114361006179,
+      "labeling": 0.03576729331237062,
+      "mental_filter": 0.06840082697918061,
+      "mind_reading": 0.07562938910864157,
+      "no_clear_pattern": 0.05389769208876946,
+      "overgeneralization": 0.04129781847262517,
+      "personalization": 0.37159899872918206,
+      "should_statements": 0.07118376033530727
+    }
+  },
+  {
+    "text": "I sometimes struggle with the workshop, but that does not make me a failure.",
+    "scores": {
+      "all_or_nothing": 0.04506096289889836,
+      "catastrophizing": 0.07212193200168245,
+      "discounting_positive": 0.08281862109757794,
+      "emotional_reasoning": 0.029379212314531968,
+      "labeling": 0.0781164625726675,
+      "mental_filter": 0.0328641293163405,
+      "mind_reading": 0.037116070483819055,
+      "no_clear_pattern": 0.4784348193061136,
+      "overgeneralization": 0.05044895211770141,
+      "personalization": 0.04850140782799246,
+      "should_statements": 0.04513743006267488
+    }
+  },
+  {
+    "text": "Their silence after the workshop could have several explanations.",
+    "scores": {
+      "all_or_nothing": 0.05764573223487554,
+      "catastrophizing": 0.04831169661804931,
+      "discounting_positive": 0.12560992666566048,
+      "emotional_reasoning": 0.07756490663554778,
+      "labeling": 0.05166189473544908,
+      "mental_filter": 0.0661982450135707,
+      "mind_reading": 0.19579766414652683,
+      "no_clear_pattern": 0.06629478739508579,
+      "overgeneralization": 0.05390637947275845,
+      "personalization": 0.20076660702327612,
+      "should_statements": 0.05624216005919999
+    }
+  },
+  {
+    "text": "I can acknowledge the good and bad parts of the workshop together.",
+    "scores": {
+      "all_or_nothing": 0.021474342397942336,
+      "catastrophizing": 0.0345394357072797,
+      "discounting_positive": 0.03023342830697851,
+      "emotional_reasoning": 0.025813986359727894,
+      "labeling": 0.014633838231029482,
+      "mental_filter": 0.7056316410876774,
+      "mind_reading": 0.02079710331606661,
+      "no_clear_pattern": 0.08575080337680528,
+      "overgeneralization": 0.01906536887904714,
+      "personalization": 0.025242344483222302,
+      "should_statements": 0.01681770785422323
+    }
+  },
+  {
+    "text": "I will prepare for the workshop this afternoon and take a break later.",
+    "scores": {
+      "all_or_nothing": 0.04108520668587621,
+      "catastrophizing": 0.27994349873113433,
+      "discounting_positive": 0.07177780633590776,
+      "emotional_reasoning": 0.025901068090076793,
+      "labeling": 0.022791829220683093,
+      "mental_filter": 0.03904595200375629,
+      "mind_reading": 0.025095658807179195,
+      "no_clear_pattern": 0.16223360796872793,
+      "overgeneralization": 0.12212112555300178,
+      "personalization": 0.10704914546400396,
+      "should_statements": 0.10295510113965267
+    }
+  },
+  {
+    "text": "constructor prototype",
+    "scores": {
+      "all_or_nothing": 0.09838261736500195,
+      "catastrophizing": 0.08635171414093888,
+      "discounting_positive": 0.08948074194040746,
+      "emotional_reasoning": 0.0861108031078453,
+      "labeling": 0.0741976948498933,
+      "mental_filter": 0.08828108829480888,
+      "mind_reading": 0.07913925546015566,
+      "no_clear_pattern": 0.1035633935456734,
+      "overgeneralization": 0.10672802890494885,
+      "personalization": 0.09361892490380194,
+      "should_statements": 0.09414573748652447
+    }
+  },
+  {
+    "text": "hello hello hello",
+    "scores": {
+      "all_or_nothing": 0.09838261736500195,
+      "catastrophizing": 0.08635171414093888,
+      "discounting_positive": 0.08948074194040746,
+      "emotional_reasoning": 0.0861108031078453,
+      "labeling": 0.0741976948498933,
+      "mental_filter": 0.08828108829480888,
+      "mind_reading": 0.07913925546015566,
+      "no_clear_pattern": 0.1035633935456734,
+      "overgeneralization": 0.10672802890494885,
+      "personalization": 0.09361892490380194,
+      "should_statements": 0.09414573748652447
+    }
+  },
+  {
+    "text": "I am NOT a failure.",
+    "scores": {
+      "all_or_nothing": 0.19745751281582302,
+      "catastrophizing": 0.02901737068965321,
+      "discounting_positive": 0.06686011829811608,
+      "emotional_reasoning": 0.05562450538524617,
+      "labeling": 0.2834446770909392,
+      "mental_filter": 0.027138607073111984,
+      "mind_reading": 0.05958261295385364,
+      "no_clear_pattern": 0.07730968746614558,
+      "overgeneralization": 0.0396835606002403,
+      "personalization": 0.04234116893185152,
+      "should_statements": 0.12154017869501914
+    }
+  },
+  {
+    "text": "I feel anxious but feelings are not facts.",
+    "scores": {
+      "all_or_nothing": 0.03756746939391678,
+      "catastrophizing": 0.025433305819781503,
+      "discounting_positive": 0.08394642796423936,
+      "emotional_reasoning": 0.2828693636599075,
+      "labeling": 0.04995564141279831,
+      "mental_filter": 0.036766510223247964,
+      "mind_reading": 0.057722208072781805,
+      "no_clear_pattern": 0.3122797145899299,
+      "overgeneralization": 0.0412516196957472,
+      "personalization": 0.030641309781702104,
+      "should_statements": 0.04156642938594765
+    }
+  },
+  {
+    "text": "caf\u00e9 d\u00e9j\u00e0 vu",
+    "scores": {
+      "all_or_nothing": 0.09838261736500195,
+      "catastrophizing": 0.08635171414093888,
+      "discounting_positive": 0.08948074194040746,
+      "emotional_reasoning": 0.0861108031078453,
+      "labeling": 0.0741976948498933,
+      "mental_filter": 0.08828108829480888,
+      "mind_reading": 0.07913925546015566,
+      "no_clear_pattern": 0.1035633935456734,
+      "overgeneralization": 0.10672802890494885,
+      "personalization": 0.09361892490380194,
+      "should_statements": 0.09414573748652447
+    }
+  },
+  {
+    "text": "\ud83d\ude0a I made a mistake and I can learn from it.",
+    "scores": {
+      "all_or_nothing": 0.015315665651177519,
+      "catastrophizing": 0.010854793505809219,
+      "discounting_positive": 0.014009525126968158,
+      "emotional_reasoning": 0.011875746728526449,
+      "labeling": 0.017132925613695144,
+      "mental_filter": 0.02034828038871892,
+      "mind_reading": 0.010082402658386476,
+      "no_clear_pattern": 0.8548494477582378,
+      "overgeneralization": 0.019287889801490998,
+      "personalization": 0.01253395450265942,
+      "should_statements": 0.013709368264330205
+    }
+  },
+  {
+    "text": "",
+    "scores": {
+      "all_or_nothing": 0.09838261736500195,
+      "catastrophizing": 0.08635171414093888,
+      "discounting_positive": 0.08948074194040746,
+      "emotional_reasoning": 0.0861108031078453,
+      "labeling": 0.0741976948498933,
+      "mental_filter": 0.08828108829480888,
+      "mind_reading": 0.07913925546015566,
+      "no_clear_pattern": 0.1035633935456734,
+      "overgeneralization": 0.10672802890494885,
+      "personalization": 0.09361892490380194,
+      "should_statements": 0.09414573748652447
+    }
+  }
+]

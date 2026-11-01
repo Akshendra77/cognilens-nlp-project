@@ -1,0 +1,177 @@
+text,expected,predicted,score,accepted
+A single flaw in the workshop means the whole thing is worthless.,all_or_nothing,mental_filter,0.2969717584817914,False
+A single flaw in the competition means the whole thing is worthless.,all_or_nothing,mental_filter,0.2969717584817914,False
+A single flaw in the project review means the whole thing is worthless.,all_or_nothing,mental_filter,0.2969717584817914,False
+A single flaw in the seminar means the whole thing is worthless.,all_or_nothing,mental_filter,0.2969717584817914,False
+I see the workshop in black and white; it is either excellent or terrible.,all_or_nothing,all_or_nothing,0.6067745555897646,True
+I see the competition in black and white; it is either excellent or terrible.,all_or_nothing,all_or_nothing,0.6067745555897646,True
+I see the project review in black and white; it is either excellent or terrible.,all_or_nothing,all_or_nothing,0.6067745555897646,True
+I see the seminar in black and white; it is either excellent or terrible.,all_or_nothing,all_or_nothing,0.6067745555897646,True
+Getting most of the workshop right is just as bad as getting nothing right.,all_or_nothing,all_or_nothing,0.20232696816012352,False
+Getting most of the competition right is just as bad as getting nothing right.,all_or_nothing,all_or_nothing,0.20232696816012352,False
+Getting most of the project review right is just as bad as getting nothing right.,all_or_nothing,all_or_nothing,0.20232696816012352,False
+Getting most of the seminar right is just as bad as getting nothing right.,all_or_nothing,all_or_nothing,0.20232696816012352,False
+"If the workshop is not a hundred percent successful, it is zero percent successful.",all_or_nothing,all_or_nothing,0.5702271888540476,True
+"If the competition is not a hundred percent successful, it is zero percent successful.",all_or_nothing,all_or_nothing,0.5702271888540476,True
+"If the project review is not a hundred percent successful, it is zero percent successful.",all_or_nothing,all_or_nothing,0.5702271888540476,True
+"If the seminar is not a hundred percent successful, it is zero percent successful.",all_or_nothing,all_or_nothing,0.5702271888540476,True
+One disappointing result in the workshop means I will never succeed again.,overgeneralization,catastrophizing,0.34935498189882325,False
+One disappointing result in the competition means I will never succeed again.,overgeneralization,catastrophizing,0.34935498189882325,False
+One disappointing result in the project review means I will never succeed again.,overgeneralization,catastrophizing,0.34935498189882325,False
+One disappointing result in the seminar means I will never succeed again.,overgeneralization,catastrophizing,0.34935498189882325,False
+A mistake in the workshop shows that every attempt I make is doomed.,overgeneralization,labeling,0.18216441060827118,False
+A mistake in the competition shows that every attempt I make is doomed.,overgeneralization,labeling,0.18216441060827118,False
+A mistake in the project review shows that every attempt I make is doomed.,overgeneralization,labeling,0.18216441060827118,False
+A mistake in the seminar shows that every attempt I make is doomed.,overgeneralization,labeling,0.18216441060827118,False
+"Since one person disliked the workshop, nobody will ever like my work.",overgeneralization,overgeneralization,0.7227793884361243,True
+"Since one person disliked the competition, nobody will ever like my work.",overgeneralization,overgeneralization,0.7227793884361243,True
+"Since one person disliked the project review, nobody will ever like my work.",overgeneralization,overgeneralization,0.7227793884361243,True
+"Since one person disliked the seminar, nobody will ever like my work.",overgeneralization,overgeneralization,0.7227793884361243,True
+This single setback in the workshop proves that things always go badly for me.,overgeneralization,overgeneralization,0.5309673916184631,True
+This single setback in the competition proves that things always go badly for me.,overgeneralization,overgeneralization,0.5309673916184631,True
+This single setback in the project review proves that things always go badly for me.,overgeneralization,overgeneralization,0.5309673916184631,True
+This single setback in the seminar proves that things always go badly for me.,overgeneralization,overgeneralization,0.5309673916184631,True
+All the praise for the workshop fades away; the single negative remark fills my mind.,mental_filter,personalization,0.16723308748830698,False
+All the praise for the competition fades away; the single negative remark fills my mind.,mental_filter,personalization,0.16723308748830698,False
+All the praise for the project review fades away; the single negative remark fills my mind.,mental_filter,personalization,0.16723308748830698,False
+All the praise for the seminar fades away; the single negative remark fills my mind.,mental_filter,personalization,0.16723308748830698,False
+I selectively remember the error in the workshop despite everything else going well.,mental_filter,mental_filter,0.2908556066396873,False
+I selectively remember the error in the competition despite everything else going well.,mental_filter,mental_filter,0.2908556066396873,False
+I selectively remember the error in the project review despite everything else going well.,mental_filter,mental_filter,0.2908556066396873,False
+I selectively remember the error in the seminar despite everything else going well.,mental_filter,mental_filter,0.2908556066396873,False
+I keep zooming in on the one bad detail of the workshop and miss the bigger picture.,mental_filter,mental_filter,0.7966015261154774,True
+I keep zooming in on the one bad detail of the competition and miss the bigger picture.,mental_filter,mental_filter,0.7966015261154774,True
+I keep zooming in on the one bad detail of the project review and miss the bigger picture.,mental_filter,mental_filter,0.7966015261154774,True
+I keep zooming in on the one bad detail of the seminar and miss the bigger picture.,mental_filter,mental_filter,0.7966015261154774,True
+The good outcomes of the workshop are invisible to me because I am stuck on a fault.,mental_filter,mental_filter,0.2608971957713086,False
+The good outcomes of the competition are invisible to me because I am stuck on a fault.,mental_filter,mental_filter,0.2608971957713086,False
+The good outcomes of the project review are invisible to me because I am stuck on a fault.,mental_filter,mental_filter,0.2608971957713086,False
+The good outcomes of the seminar are invisible to me because I am stuck on a fault.,mental_filter,mental_filter,0.2608971957713086,False
+The excellent outcome of the workshop was pure chance and says nothing about my skills.,discounting_positive,catastrophizing,0.19910293002664053,False
+The excellent outcome of the competition was pure chance and says nothing about my skills.,discounting_positive,catastrophizing,0.19910293002664053,False
+The excellent outcome of the project review was pure chance and says nothing about my skills.,discounting_positive,catastrophizing,0.19910293002664053,False
+The excellent outcome of the seminar was pure chance and says nothing about my skills.,discounting_positive,catastrophizing,0.19910293002664053,False
+Their kind words about the workshop cannot be sincere; they only feel sorry for me.,discounting_positive,emotional_reasoning,0.3095385883830277,False
+Their kind words about the competition cannot be sincere; they only feel sorry for me.,discounting_positive,emotional_reasoning,0.3095385883830277,False
+Their kind words about the project review cannot be sincere; they only feel sorry for me.,discounting_positive,emotional_reasoning,0.3095385883830277,False
+Their kind words about the seminar cannot be sincere; they only feel sorry for me.,discounting_positive,emotional_reasoning,0.3095385883830277,False
+"I earned praise for the workshop, but I brush it off as meaningless politeness.",discounting_positive,discounting_positive,0.3906532953516536,True
+"I earned praise for the competition, but I brush it off as meaningless politeness.",discounting_positive,discounting_positive,0.3906532953516536,True
+"I earned praise for the project review, but I brush it off as meaningless politeness.",discounting_positive,discounting_positive,0.3906532953516536,True
+"I earned praise for the seminar, but I brush it off as meaningless politeness.",discounting_positive,discounting_positive,0.3906532953516536,True
+The award for the workshop means nothing because the task was too easy.,discounting_positive,discounting_positive,0.5198640132522154,True
+The award for the competition means nothing because the task was too easy.,discounting_positive,discounting_positive,0.5198640132522154,True
+The award for the project review means nothing because the task was too easy.,discounting_positive,discounting_positive,0.5198640132522154,True
+The award for the seminar means nothing because the task was too easy.,discounting_positive,discounting_positive,0.5198640132522154,True
+"They have not told me, but I am sure they consider the workshop embarrassing.",mind_reading,mind_reading,0.4686174408447245,True
+"They have not told me, but I am sure they consider the competition embarrassing.",mind_reading,mind_reading,0.4686174408447245,True
+"They have not told me, but I am sure they consider the project review embarrassing.",mind_reading,mind_reading,0.4686174408447245,True
+"They have not told me, but I am sure they consider the seminar embarrassing.",mind_reading,mind_reading,0.4686174408447245,True
+The unread message about the workshop must mean they are angry with me.,mind_reading,mind_reading,0.5999859329216952,True
+The unread message about the competition must mean they are angry with me.,mind_reading,mind_reading,0.5999859329216952,True
+The unread message about the project review must mean they are angry with me.,mind_reading,mind_reading,0.5999859329216952,True
+The unread message about the seminar must mean they are angry with me.,mind_reading,mind_reading,0.5999859329216952,True
+Their facial expression tells me they think I am a failure at the workshop.,mind_reading,mind_reading,0.7245838971195336,True
+Their facial expression tells me they think I am a failure at the competition.,mind_reading,mind_reading,0.7245838971195336,True
+Their facial expression tells me they think I am a failure at the project review.,mind_reading,mind_reading,0.7245838971195336,True
+Their facial expression tells me they think I am a failure at the seminar.,mind_reading,mind_reading,0.7245838971195336,True
+I assume they despise me because they were quiet after the workshop.,mind_reading,mind_reading,0.40767263353280814,True
+I assume they despise me because they were quiet after the competition.,mind_reading,mind_reading,0.40767263353280814,True
+I assume they despise me because they were quiet after the project review.,mind_reading,mind_reading,0.40767263353280814,True
+I assume they despise me because they were quiet after the seminar.,mind_reading,mind_reading,0.40767263353280814,True
+A poor outcome in the workshop will wreck every chance I have in life.,catastrophizing,catastrophizing,0.5963726295028228,True
+A poor outcome in the competition will wreck every chance I have in life.,catastrophizing,catastrophizing,0.5963726295028228,True
+A poor outcome in the project review will wreck every chance I have in life.,catastrophizing,catastrophizing,0.5963726295028228,True
+A poor outcome in the seminar will wreck every chance I have in life.,catastrophizing,catastrophizing,0.5963726295028228,True
+"If something goes wrong with the workshop, everything will collapse beyond repair.",catastrophizing,catastrophizing,0.5758574575859696,True
+"If something goes wrong with the competition, everything will collapse beyond repair.",catastrophizing,catastrophizing,0.5758574575859696,True
+"If something goes wrong with the project review, everything will collapse beyond repair.",catastrophizing,catastrophizing,0.5758574575859696,True
+"If something goes wrong with the seminar, everything will collapse beyond repair.",catastrophizing,catastrophizing,0.5758574575859696,True
+The slightest problem in the workshop will cause a devastating chain of disasters.,catastrophizing,catastrophizing,0.6225757210082504,True
+The slightest problem in the competition will cause a devastating chain of disasters.,catastrophizing,catastrophizing,0.6225757210082504,True
+The slightest problem in the project review will cause a devastating chain of disasters.,catastrophizing,catastrophizing,0.6225757210082504,True
+The slightest problem in the seminar will cause a devastating chain of disasters.,catastrophizing,catastrophizing,0.6225757210082504,True
+I expect the workshop to end terribly and leave my future permanently destroyed.,catastrophizing,no_clear_pattern,0.3984259434542268,True
+I expect the competition to end terribly and leave my future permanently destroyed.,catastrophizing,no_clear_pattern,0.3984259434542268,True
+I expect the project review to end terribly and leave my future permanently destroyed.,catastrophizing,no_clear_pattern,0.3984259434542268,True
+I expect the seminar to end terribly and leave my future permanently destroyed.,catastrophizing,no_clear_pattern,0.3984259434542268,True
+The dread I feel about the workshop is evidence that it is unsafe.,emotional_reasoning,emotional_reasoning,0.5770370434079561,True
+The dread I feel about the competition is evidence that it is unsafe.,emotional_reasoning,emotional_reasoning,0.5770370434079561,True
+The dread I feel about the project review is evidence that it is unsafe.,emotional_reasoning,emotional_reasoning,0.5770370434079561,True
+The dread I feel about the seminar is evidence that it is unsafe.,emotional_reasoning,emotional_reasoning,0.5770370434079561,True
+"Since the workshop makes me feel inadequate, I conclude that I am inadequate.",emotional_reasoning,emotional_reasoning,0.3282900106260988,False
+"Since the competition makes me feel inadequate, I conclude that I am inadequate.",emotional_reasoning,emotional_reasoning,0.3282900106260988,False
+"Since the project review makes me feel inadequate, I conclude that I am inadequate.",emotional_reasoning,emotional_reasoning,0.3282900106260988,False
+"Since the seminar makes me feel inadequate, I conclude that I am inadequate.",emotional_reasoning,emotional_reasoning,0.3282900106260988,False
+I take my sadness after the workshop as proof that everything really is hopeless.,emotional_reasoning,emotional_reasoning,0.4195637974738426,True
+I take my sadness after the competition as proof that everything really is hopeless.,emotional_reasoning,emotional_reasoning,0.4195637974738426,True
+I take my sadness after the project review as proof that everything really is hopeless.,emotional_reasoning,emotional_reasoning,0.4195637974738426,True
+I take my sadness after the seminar as proof that everything really is hopeless.,emotional_reasoning,emotional_reasoning,0.4195637974738426,True
+"I feel rejected after the workshop, therefore I know I have been rejected.",emotional_reasoning,emotional_reasoning,0.5577021850220591,True
+"I feel rejected after the competition, therefore I know I have been rejected.",emotional_reasoning,emotional_reasoning,0.5577021850220591,True
+"I feel rejected after the project review, therefore I know I have been rejected.",emotional_reasoning,emotional_reasoning,0.5577021850220591,True
+"I feel rejected after the seminar, therefore I know I have been rejected.",emotional_reasoning,emotional_reasoning,0.5577021850220591,True
+I should never find the workshop difficult; struggling is unacceptable.,should_statements,should_statements,0.8026002771004876,True
+I should never find the competition difficult; struggling is unacceptable.,should_statements,should_statements,0.8026002771004876,True
+I should never find the project review difficult; struggling is unacceptable.,should_statements,should_statements,0.8026002771004876,True
+I should never find the seminar difficult; struggling is unacceptable.,should_statements,should_statements,0.8026002771004876,True
+I must excel at the workshop at all times or I have broken my own rules.,should_statements,all_or_nothing,0.37803745081765733,True
+I must excel at the competition at all times or I have broken my own rules.,should_statements,all_or_nothing,0.37803745081765733,True
+I must excel at the project review at all times or I have broken my own rules.,should_statements,all_or_nothing,0.37803745081765733,True
+I must excel at the seminar at all times or I have broken my own rules.,should_statements,all_or_nothing,0.37803745081765733,True
+There is no excuse: I ought to complete the workshop without a single error.,should_statements,should_statements,0.3304163806790942,False
+There is no excuse: I ought to complete the competition without a single error.,should_statements,should_statements,0.3304163806790942,False
+There is no excuse: I ought to complete the project review without a single error.,should_statements,should_statements,0.3304163806790942,False
+There is no excuse: I ought to complete the seminar without a single error.,should_statements,should_statements,0.3304163806790942,False
+People should behave exactly as I demand during the workshop.,should_statements,should_statements,0.6430974571755415,True
+People should behave exactly as I demand during the competition.,should_statements,should_statements,0.6430974571755415,True
+People should behave exactly as I demand during the project review.,should_statements,should_statements,0.6430974571755415,True
+People should behave exactly as I demand during the seminar.,should_statements,should_statements,0.6430974571755415,True
+The setback in the workshop defines my entire identity as a loser.,labeling,catastrophizing,0.36000883636544534,True
+The setback in the competition defines my entire identity as a loser.,labeling,catastrophizing,0.36000883636544534,True
+The setback in the project review defines my entire identity as a loser.,labeling,catastrophizing,0.36000883636544534,True
+The setback in the seminar defines my entire identity as a loser.,labeling,catastrophizing,0.36000883636544534,True
+"After doing poorly at the workshop, I call myself a worthless idiot.",labeling,labeling,0.2785146633774476,False
+"After doing poorly at the competition, I call myself a worthless idiot.",labeling,labeling,0.2785146633774476,False
+"After doing poorly at the project review, I call myself a worthless idiot.",labeling,labeling,0.2785146633774476,False
+"After doing poorly at the seminar, I call myself a worthless idiot.",labeling,labeling,0.2785146633774476,False
+An error in the workshop means I am fundamentally a useless person.,labeling,labeling,0.8476690775469702,True
+An error in the competition means I am fundamentally a useless person.,labeling,labeling,0.8476690775469702,True
+An error in the project review means I am fundamentally a useless person.,labeling,labeling,0.8476690775469702,True
+An error in the seminar means I am fundamentally a useless person.,labeling,labeling,0.8476690775469702,True
+I attach the label failure to myself because of the workshop.,labeling,all_or_nothing,0.20258973465042276,False
+I attach the label failure to myself because of the competition.,labeling,all_or_nothing,0.20258973465042276,False
+I attach the label failure to myself because of the project review.,labeling,all_or_nothing,0.20258973465042276,False
+I attach the label failure to myself because of the seminar.,labeling,all_or_nothing,0.20258973465042276,False
+I hold myself solely accountable for the external problems affecting the workshop.,personalization,personalization,0.42171832945825805,True
+I hold myself solely accountable for the external problems affecting the competition.,personalization,personalization,0.42171832945825805,True
+I hold myself solely accountable for the external problems affecting the project review.,personalization,personalization,0.42171832945825805,True
+I hold myself solely accountable for the external problems affecting the seminar.,personalization,personalization,0.42171832945825805,True
+"Someone was unhappy at the workshop, so I assume I personally caused it.",personalization,personalization,0.34471825146170665,True
+"Someone was unhappy at the competition, so I assume I personally caused it.",personalization,personalization,0.34471825146170665,True
+"Someone was unhappy at the project review, so I assume I personally caused it.",personalization,personalization,0.34471825146170665,True
+"Someone was unhappy at the seminar, so I assume I personally caused it.",personalization,personalization,0.34471825146170665,True
+Even factors beyond my influence in the workshop feel like my fault.,personalization,personalization,0.33024507680318427,False
+Even factors beyond my influence in the competition feel like my fault.,personalization,personalization,0.33024507680318427,False
+Even factors beyond my influence in the project review feel like my fault.,personalization,personalization,0.33024507680318427,False
+Even factors beyond my influence in the seminar feel like my fault.,personalization,personalization,0.33024507680318427,False
+I take personal blame for the group outcome of the workshop without evidence.,personalization,personalization,0.37159899872918206,True
+I take personal blame for the group outcome of the competition without evidence.,personalization,personalization,0.37159899872918206,True
+I take personal blame for the group outcome of the project review without evidence.,personalization,personalization,0.37159899872918206,True
+I take personal blame for the group outcome of the seminar without evidence.,personalization,personalization,0.37159899872918206,True
+"I sometimes struggle with the workshop, but that does not make me a failure.",no_clear_pattern,no_clear_pattern,0.4784348193061136,True
+"I sometimes struggle with the competition, but that does not make me a failure.",no_clear_pattern,no_clear_pattern,0.4784348193061136,True
+"I sometimes struggle with the project review, but that does not make me a failure.",no_clear_pattern,no_clear_pattern,0.4784348193061136,True
+"I sometimes struggle with the seminar, but that does not make me a failure.",no_clear_pattern,no_clear_pattern,0.4784348193061136,True
+Their silence after the workshop could have several explanations.,no_clear_pattern,personalization,0.20076660702327612,False
+Their silence after the competition could have several explanations.,no_clear_pattern,personalization,0.20076660702327612,False
+Their silence after the project review could have several explanations.,no_clear_pattern,personalization,0.20076660702327612,False
+Their silence after the seminar could have several explanations.,no_clear_pattern,personalization,0.20076660702327612,False
+I can acknowledge the good and bad parts of the workshop together.,no_clear_pattern,mental_filter,0.7056316410876774,True
+I can acknowledge the good and bad parts of the competition together.,no_clear_pattern,mental_filter,0.7056316410876774,True
+I can acknowledge the good and bad parts of the project review together.,no_clear_pattern,mental_filter,0.7056316410876774,True
+I can acknowledge the good and bad parts of the seminar together.,no_clear_pattern,mental_filter,0.7056316410876774,True
+I will prepare for the workshop this afternoon and take a break later.,no_clear_pattern,catastrophizing,0.27994349873113433,False
+I will prepare for the competition this afternoon and take a break later.,no_clear_pattern,catastrophizing,0.27994349873113433,False
+I will prepare for the project review this afternoon and take a break later.,no_clear_pattern,catastrophizing,0.27994349873113433,False
+I will prepare for the seminar this afternoon and take a break later.,no_clear_pattern,catastrophizing,0.27994349873113433,False

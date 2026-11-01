@@ -1,0 +1,257 @@
+{
+  "dataset": "Synthetic instructional corpus (not clinical data)",
+  "train_examples": 528,
+  "test_examples": 176,
+  "train_template_groups": 132,
+  "test_template_groups": 44,
+  "vocabulary_size": 1528,
+  "seed": 42,
+  "accuracy": 0.7045454545454546,
+  "macro_f1": 0.696628623901351,
+  "baseline_accuracy": 0.09090909090909091,
+  "baseline_macro_f1": 0.01515151515151515,
+  "selective_coverage": 0.6363636363636364,
+  "selective_accuracy": 0.8571428571428571,
+  "per_class": {
+    "all_or_nothing": {
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1-score": 0.6666666666666666,
+      "support": 16.0
+    },
+    "catastrophizing": {
+      "precision": 0.42857142857142855,
+      "recall": 0.75,
+      "f1-score": 0.5454545454545454,
+      "support": 16.0
+    },
+    "discounting_positive": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 16.0
+    },
+    "emotional_reasoning": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 16.0
+    },
+    "labeling": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1-score": 0.5714285714285714,
+      "support": 16.0
+    },
+    "mental_filter": {
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1-score": 0.6666666666666666,
+      "support": 16.0
+    },
+    "mind_reading": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 16.0
+    },
+    "no_clear_pattern": {
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1-score": 0.3333333333333333,
+      "support": 16.0
+    },
+    "overgeneralization": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 16.0
+    },
+    "personalization": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 16.0
+    },
+    "should_statements": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 16.0
+    },
+    "accuracy": 0.7045454545454546,
+    "macro avg": {
+      "precision": 0.7510822510822511,
+      "recall": 0.7045454545454546,
+      "f1-score": 0.696628623901351,
+      "support": 176.0
+    },
+    "weighted avg": {
+      "precision": 0.7510822510822511,
+      "recall": 0.7045454545454546,
+      "f1-score": 0.696628623901351,
+      "support": 176.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      4,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12
+    ]
+  ],
+  "classes": [
+    "all_or_nothing",
+    "catastrophizing",
+    "discounting_positive",
+    "emotional_reasoning",
+    "labeling",
+    "mental_filter",
+    "mind_reading",
+    "no_clear_pattern",
+    "overgeneralization",
+    "personalization",
+    "should_statements"
+  ],
+  "sklearn_version": "1.7.2",
+  "corpus_sha256": "f7a5eff0cdd7a29dc1744059f89c5c376963bc09ae4a43abcb3a6e2426af7413",
+  "limitations": "Same-author synthetic template families; related vocabulary remains across splits. Scores do not estimate real-world or clinical performance. Thresholds are fixed heuristics, not calibrated on a validation set."
+}

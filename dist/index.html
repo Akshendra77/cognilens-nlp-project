@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f7f1">
+  <meta name="description" content="An explainable NLP workspace for exploring cognitive distortions. A complete educational project with local analysis and reproducible model evaluation.">
+  <title>CogniLens · A little clarity</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar" aria-label="Main navigation">
+    <a href="#analyzer" class="brand" aria-label="CogniLens home"><svg viewBox="0 0 40 40" aria-hidden="true"><ellipse cx="20" cy="20" rx="8" ry="17" transform="rotate(45 20 20)"/><ellipse cx="20" cy="20" rx="8" ry="17" transform="rotate(-45 20 20)"/><circle cx="20" cy="20" r="3"/></svg><span>CogniLens<span class="brand-dot">.</span></span></a>
+    <div class="workspace-label">YOUR WORKSPACE</div>
+    <nav>
+      <a class="nav-link" href="#analyzer" data-page="analyzer"><span data-icon="spark"></span>Thought analyzer<span class="nav-arrow">↗</span></a>
+      <a class="nav-link" href="#library" data-page="library"><span data-icon="library"></span>Pattern library<span class="nav-count">10</span></a>
+      <a class="nav-link" href="#history" data-page="history"><span data-icon="history"></span>Saved reflections<span class="nav-count" id="history-count">0</span></a>
+      <a class="nav-link" href="#batch" data-page="batch"><span data-icon="layers"></span>Batch explorer</a>
+      <div class="nav-divider"></div>
+      <div class="workspace-label">BEHIND THE LENS</div>
+      <a class="nav-link" href="#model" data-page="model"><span data-icon="chart"></span>Model & methodology</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="sidebar-note"><span class="note-spark">✳</span><p>A thought is a starting point.<br>There is more than one way<br>to look at it.</p><span class="small-rule"></span></div><div class="project-meta"><span class="avatar">CL</span><div><strong>NLP student project</strong><span>Educational edition · v1.0</span></div></div></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <strong id="breadcrumb-title">Thought analyzer</strong></div><div class="privacy-indicator"><span class="status-dot"></span> Runs in your browser <span data-icon="lock"></span></div></header>
+    <main id="main" tabindex="-1">
+      <section class="page active" id="page-analyzer" aria-labelledby="analyzer-title">
+        <div class="hero"><div><div class="eyebrow"><span></span> A FRESH PERSPECTIVE, POWERED BY NLP</div><h1 id="analyzer-title">A little clarity,<br>one <em>thought</em> at a time.</h1><p class="hero-description">Explore the patterns in your thinking. Put a thought into words,<br class="desktop-break"> and see what a different perspective might reveal.</p></div><div class="hero-art" aria-hidden="true"><svg viewBox="0 0 220 210"><defs><linearGradient id="orb" x2="1" y2="1"><stop stop-color="#e8ebe0"/><stop offset="1" stop-color="#f9efe4"/></linearGradient></defs><circle cx="110" cy="104" r="77" fill="url(#orb)"/><g fill="none" stroke="#879177" stroke-width="1"><ellipse cx="110" cy="104" rx="47" ry="77" transform="rotate(-34 110 104)"/><ellipse cx="110" cy="104" rx="47" ry="77" transform="rotate(34 110 104)"/><ellipse cx="110" cy="104" rx="77" ry="27" transform="rotate(-34 110 104)"/><ellipse cx="110" cy="104" rx="77" ry="27" transform="rotate(34 110 104)"/></g><circle cx="163" cy="53" r="6" fill="#bc7445"/><circle cx="56" cy="153" r="4" fill="#7b856e"/><path d="M185 139v16m-8-8h16M42 41v12m-6-6h12" stroke="#be8153" stroke-width="1.5"/></svg><span>A different angle changes things.</span></div></div>
+        <div class="feature-strip"><span><span data-icon="scan"></span>10 thinking patterns</span><span><span data-icon="layers"></span>Sentence-level insights</span><span><span data-icon="lock"></span>Your words stay on this device</span></div>
+        <div class="analyzer-grid">
+          <section class="panel input-panel"><div class="panel-heading"><div class="section-number">01</div><div><h2>Your thought, in your words</h2><p>No perfect wording needed. Start with what is on your mind.</p></div></div><label class="sr-only" for="thought-input">Enter a thought in English</label><div class="textarea-wrap"><textarea id="thought-input" maxlength="5000" placeholder="For example: I made one mistake in my presentation. Now everyone must think I am terrible at this…" spellcheck="true"></textarea><div class="input-meta"><span><span class="status-dot small"></span> English text</span><span id="word-count">0 words <span>·</span> 0 / 5,000</span></div></div><div class="examples-label">NEED A STARTING POINT?</div><div class="sample-chips" id="sample-chips"></div><div class="input-actions"><button id="analyze-btn" class="button primary" disabled><span data-icon="spark"></span><span id="analyze-label">Loading model…</span><span>↗</span></button><span class="shortcut"><kbd>Ctrl</kbd> + <kbd>Enter</kbd></span><button class="text-button" id="clear-btn">Clear</button></div><p id="input-error" class="error" role="alert"></p></section>
+          <section class="panel result-panel" id="result-panel" aria-live="polite"><div class="panel-heading"><div class="section-number">02</div><div><h2>A closer look</h2><p>Insight begins with a moment of curiosity.</p></div></div><div id="result-content"><div class="empty-result"><div class="lens-art"><span></span><span></span><i>✳</i></div><h3>Let’s untangle a thought.</h3><p>Your analysis will appear here, with possible thinking patterns and the words that influenced the model.</p><div class="empty-steps"><span>Notice</span><i>·</i><span>Understand</span><i>·</i><span>Reflect</span></div></div></div></section>
+        </div>
+        <div class="education-note"><span data-icon="info"></span><p>A tool for curiosity, not a diagnosis. This student model can miss context or misread language. Its suggestions are possibilities to explore.</p><a href="#model">How it works <span>↗</span></a></div>
+        <section class="explore-section"><div class="section-title"><div><div class="eyebrow muted">A SMALL SHIFT IN PERSPECTIVE</div><h2>Get to know the patterns.</h2></div><a href="#library" class="text-link">Explore the library <span>↗</span></a></div><div class="preview-cards" id="preview-cards"></div></section>
+      </section>
+      <section class="page" id="page-library" aria-labelledby="library-title"><div class="page-heading"><div class="eyebrow">THE PATTERN LIBRARY</div><h1 id="library-title">Name it. <em>Understand it.</em></h1><p>Ten patterns this project explores. These are descriptions of language, not labels for people.</p></div><div class="search-wrap"><span data-icon="search"></span><input type="search" id="library-search" aria-label="Search thinking patterns" placeholder="Search patterns, descriptions, or examples…"><span id="library-count">10 patterns</span></div><div class="library-grid" id="library-grid"></div></section>
+      <section class="page" id="page-history" aria-labelledby="history-title"><div class="page-heading"><div class="eyebrow">YOUR SAVED REFLECTIONS</div><h1 id="history-title">Room to <em>look back.</em></h1><p>Only analyses you choose to save appear here. They are stored in this browser on this device.</p></div><div class="history-toolbar"><span id="saved-count"></span><button id="delete-all" class="button secondary">Clear saved history</button></div><div id="history-list"></div></section>
+      <section class="page" id="page-batch" aria-labelledby="batch-title"><div class="page-heading"><div class="eyebrow">THE BATCH EXPLORER</div><h1 id="batch-title">Explore a <em>bigger picture.</em></h1><p>Compare up to 50 short texts. Paste one example per line, or import a plain text file.</p></div><div class="panel batch-panel"><div class="section-title"><h2>Your collection of thoughts</h2><label class="button secondary file-label"><span data-icon="upload"></span>Import .txt<input type="file" id="batch-file" accept=".txt,text/plain"></label></div><label class="sr-only" for="batch-input">One text per line, up to 50 lines</label><textarea id="batch-input" placeholder="I made a mistake, so I am a loser.&#10;One setback does not determine my future.&#10;They did not reply, so they must hate me." maxlength="250000"></textarea><div class="input-actions"><button class="button primary" id="batch-analyze">Analyze collection <span>↗</span></button><button class="button secondary" id="batch-demo">Load examples</button><span id="batch-count">0 texts</span></div><p class="error" id="batch-error" role="alert"></p></div><div id="batch-results" aria-live="polite"></div></section>
+      <section class="page" id="page-model" aria-labelledby="model-title"><div class="page-heading"><div class="eyebrow">TRANSPARENCY BY DESIGN</div><h1 id="model-title">Behind <em>the lens.</em></h1><p>A small, reproducible NLP baseline. Explore how it works, how it was tested, and where it falls short.</p></div><div id="model-content"><p>Loading evaluation…</p></div></section>
+      <footer><span>CogniLens<span class="brand-dot">.</span> <span class="footer-line">A little perspective goes a long way.</span></span><span>Built for learning. Designed for reflection.</span></footer>
+    </main>
+  </div>
+  <dialog id="pattern-dialog"><button class="dialog-close" aria-label="Close pattern details">×</button><div id="dialog-content"></div></dialog>
+  <dialog id="confirm-dialog"><h2>Clear your saved reflections?</h2><p>This removes every saved analysis from this browser. Export anything you want to keep first.</p><div class="input-actions"><button id="confirm-delete" class="button primary">Delete all saved analyses</button><button class="button secondary" id="cancel-delete">Cancel</button></div></dialog>
+  <div id="toast" role="status" class="toast"></div>
+</body>
+</html>
